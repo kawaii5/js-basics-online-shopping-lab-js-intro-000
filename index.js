@@ -50,7 +50,7 @@ function removeFromCart(item) {
   if(foundItem < 0) {
     return "That item is not in your cart.";
   }
-  cart.splice(0,1);
+  cart=[];
 }
 
 function placeOrder(cardNumber) {
