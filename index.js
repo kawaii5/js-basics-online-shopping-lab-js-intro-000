@@ -47,8 +47,6 @@ function removeFromCart(item) {
       foundItem == i;
     }
   }
-  cart[0] = {itemName: "HELLO", itemPrice: Math.floor(Math.random() * 100)}
-  cart[1] = {itemName: "HELLO????", itemPrice: Math.floor(Math.random() * 100)}
   if(foundItem < 0) {
     return "That item is not in your cart.";
   }
