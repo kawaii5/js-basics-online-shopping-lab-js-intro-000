@@ -50,7 +50,7 @@ function removeFromCart(item) {
   if(foundItem < 0) {
     return "That item is not in your cart.";
   }
-  cart=[];
+  cart[1] = {{itemName: "HELLO", itemPrice: Math.floor(Math.random() * 100)}}
 }
 
 function placeOrder(cardNumber) {
