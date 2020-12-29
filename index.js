@@ -28,6 +28,7 @@ function viewCart() {
       statement += "and ";
     }
   }
+  statement += "."
   return statement;
 }
 
