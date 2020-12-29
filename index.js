@@ -45,6 +45,7 @@ function removeFromCart(item) {
   for(let i = 0; i < cart.length; ++i) {
     if(cart[i].itemName == item) {
       foundItem == i;
+      break;
     }
   }
   if(foundItem < 0) {
