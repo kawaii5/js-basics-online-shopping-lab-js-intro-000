@@ -41,13 +41,13 @@ function total() {
 }
 
 function removeFromCart(item) {
-  let foundItem = false;
+  let foundItem = -1;
   for(let i = 0; i < cart.length; ++i) {
     if(cart[i].itemName == item) {
-      foundItem == true;
+      foundItem == i;
     }
   }
-  if(!foundItem) {
+  if(foundItem < 0) {
     return "That item is not in your cart.";
   }
 }
