@@ -129,6 +129,7 @@ describe("removeFromCart()", function() {
 
     const firstItemName = getCart()[0].itemName;
     const secondItemName = getCart()[1].itemName;
+
     expect(firstItemName).toEqual("vanilla");
     expect(secondItemName).toEqual("yams");
 
