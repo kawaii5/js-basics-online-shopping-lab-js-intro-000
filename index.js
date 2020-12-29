@@ -51,7 +51,7 @@ function removeFromCart(item) {
     return "That item is not in your cart.";
   }
   console.log(cart);
-  console.log(I0283047380 PN830PR7E8U30PWAJNC83WP90AR7380BPV R38WA90PR3Y8NA9 R3Y8WA9RO3AY8WR9ABY);
+  console.log("I0283047380 PN830PR7E8U30PWAJNC83WP90AR7380BPV R38WA90PR3Y8NA9 R3Y8WA9RO3AY8WR9ABY");
   cart.splice(foundItem, 1);
   console.log(cart);
   return cart;
