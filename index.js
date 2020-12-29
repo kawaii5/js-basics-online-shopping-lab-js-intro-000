@@ -30,7 +30,7 @@ function viewCart() {
     }
   }
   statement += "."
-  return statement;
+  return statement + ".";
 }
 
 function total() {
