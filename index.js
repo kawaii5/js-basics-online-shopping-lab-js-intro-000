@@ -20,7 +20,13 @@ function viewCart() {
   }
   let statement = "In your cart, you have ";
   for(let i = 0; i < cart.length; ++i) {
-    statement += cart[i].name
+    statement += cart[i].itemName + " at " cart[i].itemPrice;
+    if(i < cart.length - 1) {
+      statement += ", ";
+    }
+    if(i == cart.length - 1) {
+      statement += "and ";
+    }
   }
 }
 
