@@ -51,6 +51,7 @@ function removeFromCart(item) {
     return "That item is not in your cart.";
   }
   cart.splice(foundItem, 1);
+  return cart;
 }
 
 function placeOrder(cardNumber) {
