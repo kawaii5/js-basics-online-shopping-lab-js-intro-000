@@ -48,7 +48,9 @@ function removeFromCart(item) {
       break;
     }
   }
-  if(foundItem < 0) {
+  if(foundItem >= 0) {
+    cart.splice(foundItem, 1);
+  } else {
     return "That item is not in your cart.";
   }
 }
