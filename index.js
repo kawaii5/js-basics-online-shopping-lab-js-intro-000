@@ -58,6 +58,7 @@ function placeOrder(cardNumber) {
     return "Sorry, we don't have a credit card on file for you.";
   }
   let total = this.total();
+  let ann = "Your total cost is $" + total + ", which will be charged to the card " + cardNumber + ".";
   cart = [];
-  return "Your total cost is $" + total + ", which will be charged to the card " + cardNumber + ".";
+  return ann;
 }
